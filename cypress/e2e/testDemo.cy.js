@@ -4,6 +4,6 @@ const loginDL = new LoginDomainLogic();
 
 describe('Check login to TestLink', () => {
   it('Login', () => {
-    loginDL.loginToApplication('marko', 'Servalit123');
+    loginDL.loginToApplication('fakeuser', 'fakepass');
   });
 })
